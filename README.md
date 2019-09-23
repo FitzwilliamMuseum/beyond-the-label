@@ -1,6 +1,6 @@
-# Letters of William Hayley - Fitzwilliam Museum
+# Beyond the Label- Fitzwilliam Museum
 
-This repository will hold code for the CHRG funded letters of Hayley correspondence
+This repository will hold code for the Beyond the Label prohect
 
 ## To run locally
 
@@ -26,6 +26,6 @@ otherwise.
 ## Contributing guidelines
 
 If you want to contribute fixes to this site, you are very welcome to do so. To
-do this, either add a [bug report under issues](https://github.com/FitzwilliamMuseum/chrg-hayley-letters/issues)
+do this, either add a [bug report under issues](https://github.com/FitzwilliamMuseum/beyond-the-label/issues)
 or fork the repository and create a new branch for proposed fixes and then submit
 a pull request.
