@@ -1,6 +1,6 @@
 # Beyond the Label- Fitzwilliam Museum
 
-This repository will hold code for the Beyond the Label prohect
+This repository will hold code for the Beyond the Label project
 
 ## To run locally
 
