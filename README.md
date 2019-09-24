@@ -7,7 +7,7 @@ This repository will hold code for the Beyond the Label project
 * Install Jekyll on your machine following these [instructions](https://jekyllrb.com/docs/installation/)
 * Install Git on your machine following these [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Clone the code for this repository:
-   `git clone https://github.com/FitzwilliamMuseum/chrg-hayley-letters.git chrg-hayley-letters`
+   `git clone https://github.com/FitzwilliamMuseum/beyond-the-label.git beyond-the-label`
 * Change to the directory and then run this command in terminal `jekyll serve`
 
 ## Credits
