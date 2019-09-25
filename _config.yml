@@ -20,13 +20,13 @@ locale: "en-GB"
 
 title_separator: "-"
 
-email: dejp3@cam.ac.uk
+email: gd304@cam.ac.uk
 
 description: >-
 
 words_per_minute: 200
 
-baseurl: "https://fitzwilliammuseum.github.io/beyond-the-label"
+baseurl: ""
 
 url: "https://beyondthelabel.fitzmuseum.cam.ac.uk"
 
@@ -36,7 +36,7 @@ github_username:  fitzwilliammuseum
 
 logo: "/images/logos/rainbow.png"
 
-google_analytics: 
+google_analytics:
 
 lang: EN_GB
 timezone: Europe/London
@@ -57,10 +57,8 @@ plugins:
 collections:
    labels:
       output: true
+      permalink: /:collection/:name
 
-
-
-mailchimp-list: 
 
 
 

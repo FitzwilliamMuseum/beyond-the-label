@@ -182,6 +182,11 @@ label.cm-app-label {
 .navbar nav {
   display: inline;
 }
+
+
+
+
+
 @media  (max-width : 480px) {
   .shorten-words {
     max-width: 200px;
