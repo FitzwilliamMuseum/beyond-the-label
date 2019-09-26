@@ -37,8 +37,12 @@
               <div class="row">
                 <div class="col-md-6 mb-3">
                   <div class="card card-body h-100 {% if label.level == "Intro" %} intro-card {% endif %}">
-                    <img src="{{label.object_1_cover_image}}" class="rounded float-right img-fluid thumb-nail pull-right" alt="...">
-                      <h3><a href="">{{ label.label_title }} {{ label.object_1_title }}</a></h3>
+                    {% if label.object_1_cover_image != blank %}
+                    <img src="{{label.object_1_cover_image}}" class="rounded float-right img-fluid thumb-nail " alt="Image associated with {{ label.object_1_title }} ">
+                    {% elsif label.object_1_cover_image == blank %}
+                    <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle float-right img-fluid thumb-nail" alt="File not found">
+                    {% endif %}
+                                          <h3><a href="">{{ label.label_title }} {{ label.object_1_title }}</a></h3>
                        {% if label.level != "Intro" %}<p>{% if label.object_1 != "" %}{{ label.object_1 }}<br/>
                         {% endif %}{{ label.maker }}<br/>{{ label.maker_dates }}</p>
                       {% endif %}
@@ -51,6 +55,11 @@
               {% else %}
               <div class="col-md-6 mb-3">
                 <div class="card card-body h-100 {% if label.level == "Intro" %} intro-card {% endif %}">
+                  {% if label.object_1_cover_image != blank %}
+                  <img src="{{label.object_1_cover_image}}" class="rounded float-right img-fluid thumb-nail " alt="Image associated with {{ label.object_1_title }} ">
+                  {% elsif label.object_1_cover_image == blank %}
+                  <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle float-right img-fluid thumb-nail" alt="File not found">
+                  {% endif %}
                   <h3><a href="">{{ label.label_title }} {{ label.object_1_title }}</a></h3>
                   {% if label.level != "Intro" %}<p>{{ label.maker }}<br/>{{ label.maker_dates }}</p>
                   {% endif %}
