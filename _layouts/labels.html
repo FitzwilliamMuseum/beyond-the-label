@@ -44,7 +44,7 @@
                       <p>{{label.label_content | truncate: 300}}</p>
                       {% if label.level != "Intro" %}<p style="text-align:right;font-size:small;color:#686868">{% if label.object_1_department != "" %}{{ label.object_1_department }}{% endif %}<br/>
                         {% endif %}{{ label.acquisition_credit_line}}</p>
-                      <a href="{{ site.baseurl }}{{ label.slug }}" class="btn btn-dark">Read more</a>
+                      <a href="{{ site.baseurl }}labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
                                   </div>
               </div>
               {% else %}
@@ -56,7 +56,7 @@
                   <p>{{label.label_content | truncate: 300}}</p>
                   {% if label.level != "Intro" %}<p style="text-align:right;font-size:small;color:#686868">{% if label.object_1_department != "" %}{{ label.object_1_department }}{% endif %}<br/>
                     {% endif %}{{ label.acquisition_credit_line}}</p>
-                  <a href="{{ site.baseurl }}{{ label.slug }}" class="btn btn-dark">Read more</a>
+                  <a href="{{ site.baseurl }}labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
                 </div>
               </div>
             </div>
@@ -67,7 +67,6 @@
 
 
 <div class="row">
-
 {% include share_buttons.html %}
 </div>
   </div>
