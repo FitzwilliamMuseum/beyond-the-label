@@ -36,20 +36,27 @@
               {% if loopindex == 1  %}
               <div class="row">
                 <div class="col-md-6 mb-3">
-                  <div class="card card-body h-100">
+                  <div class="card card-body h-100 {% if label.level == "Intro" %} intro-card {% endif %}">
                       <h3><a href="">{{ label.label_title }} {{ label.object_1_title }}</a></h3>
-                      <p>
-                        {{ label.maker }}</p>
+                      {% if label.level != "Intro" %}<p>{% if label.object_1 != "" %}{{ label.object_1 }}<br/>
+                        {% endif %}{{ label.maker }}<br/>{{ label.maker_dates }}</p>
+                      {% endif %}
+                      <p>{{label.label_content | truncate: 300}}</p>
+                      {% if label.level != "Intro" %}<p style="text-align:right;font-size:small;color:#686868">{% if label.object_1_department != "" %}{{ label.object_1_department }}{% endif %}<br/>
+                        {% endif %}{{ label.acquisition_credit_line}}</p>
                       <a href="{{ site.baseurl }}{{ label.slug }}" class="btn btn-dark">Read more</a>
                                   </div>
               </div>
               {% else %}
               <div class="col-md-6 mb-3">
-                <div class="card card-body h-100">
-                    <h3><a href="">{{ label.label_title }} {{ label.object_1 }}</a></h3>
-                    <p>
-                      {{ label.maker }}</p>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-dark">Read more</a>
+                <div class="card card-body h-100 {% if label.level == "Intro" %} intro-card {% endif %}">
+                  <h3><a href="">{{ label.label_title }} {{ label.object_1_title }}</a></h3>
+                  {% if label.level != "Intro" %}<p>{{ label.maker }}<br/>{{ label.maker_dates }}</p>
+                  {% endif %}
+                  <p>{{label.label_content | truncate: 300}}</p>
+                  {% if label.level != "Intro" %}<p style="text-align:right;font-size:small;color:#686868">{% if label.object_1_department != "" %}{{ label.object_1_department }}{% endif %}<br/>
+                    {% endif %}{{ label.acquisition_credit_line}}</p>
+                  <a href="{{ site.baseurl }}{{ label.slug }}" class="btn btn-dark">Read more</a>
                 </div>
               </div>
             </div>

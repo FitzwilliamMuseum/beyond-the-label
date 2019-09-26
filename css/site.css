@@ -14,9 +14,22 @@ footer, .chip-icon {
     background-color: #000000!important;
 }
 
+
 body {
-    background-color: #dcd9d945;
+  font-family: 'Roboto', sans-serif;
 }
+
+a {
+    background-color: transparent;
+    color: #731100;
+    text-decoration: none;
+}
+
+article {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 
 video {
 
@@ -152,7 +165,7 @@ video {
     background-color: #731200;
     color: #fff;
     padding: 10px;
-}}
+}
 
 .max-coffins {
     max-width: 100%;
@@ -183,7 +196,9 @@ label.cm-app-label {
   display: inline;
 }
 
-
+.intro-card {
+background-color:rgba(115, 18, 0, 0.1);
+}
 
 
 
