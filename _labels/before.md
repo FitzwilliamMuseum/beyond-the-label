@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Before
-slug: before
+title: Before and After
+slug: before-and-after
 ---
 {% assign data = site.data.labeldata | where:"slug", page.slug %}
-<!-- {{ data }} -->
+{{ data }}
 <img src="{{ data[0]object_1_cover_image string }}" />
 <p>
 Title: {{ data[0]object_1_title string}} <br />
