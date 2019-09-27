@@ -8,6 +8,13 @@
     }
 }
 
+.masthead {
+    background-image: url(../images/layouts/g3_roof.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
 @media screen and (max-width: 600px) {
   .head {
 
