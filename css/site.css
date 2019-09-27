@@ -1,11 +1,23 @@
+@media (min-width: 576px) {
 .head {
-#    background-image: url(../images/layouts/despot.jpg);
-    background-position: 50% 80%;
+    background-image: url(../images/layouts/g3.jpg);
+    background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 8rem;
     }
+}
 
+@media screen and (max-width: 600px) {
+  .head {
+
+    display: none;
+    visibility: hidden;
+  }
+  .hide {
+    padding-top: 3rem;
+  }
+}
 footer, .chip-icon {
     background-color: #731200;
 }
