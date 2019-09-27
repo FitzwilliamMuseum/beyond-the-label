@@ -4,7 +4,7 @@ title: Pamela and Mr B. in the summer house
 ---
 {% assign data = site.data.labeldata | where:"slug", page.slug %}
 <!-- {{ data }} -->
-<img src="{{ data[0]object_1_cover_image }}" />
+<img src="{{ data[0]object_1_cover_image }}" class="img-fluid"/>
 <p>
 Title: {{ data[0]object_1_title }} <br />
 Object number: {{ data[0]object_1 }}<br />
