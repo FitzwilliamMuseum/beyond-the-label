@@ -211,7 +211,7 @@ background-color:rgba(115, 18, 0, 0.1);
 .not-intro {
 text-align:right;
 font-size:small;
-color:#686868";
+color:#686868;
 }
 
 @media  (max-width : 480px) {
@@ -228,7 +228,6 @@ color:#686868";
 }
 
 .txt-intro {
-  text-align:right;
-  font-size:small;
+  text-align:left;
   color:#686868;
 }
