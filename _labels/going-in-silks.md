@@ -3,17 +3,17 @@ title: Going in silks
 layout: default
 ---
 
-<div style="border:1px solid #686868; background-color:rgba(255, 255, 255, 0.6); padding:10px; margin-bottom:20px;">
+
 {% for label in site.data.labeldata %}
   {% if label.object_1 == "PD.73-1978" %}
-  <div class="float-right"><img src="{{label.object_1_cover_image}}" class="img-fluid"></div>
+  <div class="float-right"><img src="{{label.object_1_cover_image}}" class="img-fluid p-3 mx-2"></div>
     <p>{{ label.object_1_title }}<br/>
     {{ label.object_1_production_information }}  <br/>
     {{ label.maker }}  <br/>
     {{ label.technique_description }} </p>
   {% endif %}
 {% endfor %}
-</div>
+
 
 *Some textile contexts for portraits of Charles I and Henrietta Maria*
 
