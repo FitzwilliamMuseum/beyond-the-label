@@ -226,3 +226,9 @@ color:#686868";
 .navbar {
   z-index: 2147483647;
 }
+
+.txt-intro {
+  text-align:right;
+  font-size:small;
+  color:#686868;
+}
