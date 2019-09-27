@@ -3,13 +3,15 @@
 This repository will hold code for the Beyond the Label project. This project
 contains data pulled from AdLib, curatorial interpretation, video and audio content and additional materials. It is written in Jekyll, hosted on GH-Pages and is an experimental piece.
 
+![](images/screenshots/screenshot.png)
+
 The museum's visitors will be invited to visit the pages on this site by access methods in gallery such as:
 
 * NFC
 * QR Code
 * Short URL
 
-These will have identifiers to show the method which was used to interact so we can see how successful this trial is. 
+These will have identifiers to show the method which was used to interact so we can see how successful this trial is.
 
 ## To run locally
 
