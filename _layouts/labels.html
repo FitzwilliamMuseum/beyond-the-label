@@ -39,54 +39,61 @@
         <div class="card card-body h-100 {% if label.level == "Intro" %}
         intro-card {% endif %}">
 
-        <!-- start image block -->
-        {% if label.object_1_cover_image != blank %}
-        <div class="cover-image">
-          <img src="{{label.object_1_cover_image}}" class="rounded-circle
-          float-right img-fluid thumb-nail " alt="Image associated with
-          {{ label.object_1_title }} ">
+        <div class="container">
+
+          <!-- start image block -->
+          {% if label.object_1_cover_image != blank %}
+          <div class="cover-image">
+            <img src="{{label.object_1_cover_image}}" class="rounded-circle
+            float-right img-fluid thumb-nail p-3" alt="Image associated with
+            {{ label.object_1_title }} ">
+          </div>
+          {% elsif label.object_1_cover_image == blank %}
+          <div class="cover-image">
+            <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle
+            float-right img-fluid thumb-nail p-3" alt="File not found">
+          </div>
+          {% endif %}
+          <!-- end image block -->
+
+          <div class="contents-label">
+            <h3>
+              <a href="">{{ label.label_title }} {{ label.object_1_title }}</a>
+            </h3>
+
+            {% if label.level != "Intro" %}
+            <p>
+              {% if label.object_1 != blank %}
+              {{ label.object_1 }}<br/>
+              {% endif %}
+
+              {% if label.maker != blank %}
+              {{ label.maker }}<br/>
+              {% endif %}
+
+              {% if label.maker != blank %}
+              {{ label.maker_dates }}
+              {% endif %}
+            </p>
+            {% endif %}
+
+            <p>
+              {% if label.label_content != blank %}
+              {{label.label_content | truncate: 300}}
+              {% endif %}
+            </p>
+
+            {% if label.level != "Intro" %}
+            <p class="txt-intro">
+              {% if label.object_1_department != blank %}
+              {{ label.object_1_department }}{% endif %}<br/>
+              {% endif %}
+              {% if label.acquisition_credit_line != blank %}
+              {{ label.acquisition_credit_line}}
+              {% endif %}
+            </p>
+          </div>
         </div>
-        {% elsif label.object_1_cover_image == blank %}
-        <div class="cover-image">
-          <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle
-          float-right img-fluid thumb-nail" alt="File not found">
-        </div>
-        {% endif %}
-        <!-- end image block --> 
-
-        <h3><a href="">{{ label.label_title }} {{ label.object_1_title }}</a></h3>
-        {% if label.level != "Intro" %}
-        <p>
-          {% if label.object_1 != blank %}
-          {{ label.object_1 }}<br/>
-          {% endif %}
-
-          {% if label.maker != blank %}
-          {{ label.maker }}<br/>
-          {% endif %}
-
-          {% if label.maker != blank %}
-          {{ label.maker_dates }}
-          {% endif %}
-        </p>
-        {% endif %}
-
-        <p>
-          {% if label.label_content != blank %}
-          {{label.label_content | truncate: 300}}
-          {% endif %}
-        </p>
-
-        {% if label.level != "Intro" %}
-        <p class="txt-intro">
-          {% if label.object_1_department != blank %}
-          {{ label.object_1_department }}{% endif %}<br/>
-          {% endif %}
-          {% if label.acquisition_credit_line != blank %}
-          {{ label.acquisition_credit_line}}
-          {% endif %}
-        </p>
-
         <a href="{{ site.baseurl }}labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
       </div>
     </div>
@@ -96,22 +103,24 @@
       <div class="card card-body h-100 {% if label.level == "Intro" %}
       intro-card {% endif %}">
 
-        <!-- start image block -->
-        {% if label.object_1_cover_image != blank %}
-        <div class="cover-image">
-          <img src="{{label.object_1_cover_image}}" class="rounded-circle
-          float-right img-fluid thumb-nail " alt="Image associated with
-          {{ label.object_1_title }} ">
-        </div>
-        {% elsif label.object_1_cover_image == blank %}
-        <div class="cover-image">
-          <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle
-          float-right img-fluid thumb-nail" alt="File not found">
-        </div>
-        {% endif %}
+<div class="container">
+      <!-- start image block -->
+      {% if label.object_1_cover_image != blank %}
+      <div class="cover-image">
+        <img src="{{label.object_1_cover_image}}" class="rounded-circle
+        float-right img-fluid thumb-nail p-3" alt="Image associated with
+        {{ label.object_1_title }} ">
+      </div>
+      {% elsif label.object_1_cover_image == blank %}
+      <div class="cover-image">
+        <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle
+        float-right img-fluid thumb-nail p-3" alt="File not found">
+      </div>
+      {% endif %}
 
-        <!-- end image block -->
+      <!-- end image block -->
 
+      <div class="contents-label">
         <h3>
           <a href="">{{ label.label_title }} {{ label.object_1_title }}</a>
         </h3>
@@ -137,27 +146,29 @@
         {% if label.level != "Intro" %}
         <p class="txt-intro">
           {% if label.object_1_department != blank %}
-            {{ label.object_1_department }}<br/>
+          {{ label.object_1_department }}<br/>
           {% endif %}
           {% if label.acquisition_credit_line != blank %}
           {{ label.acquisition_credit_line}}
           {% endif %}
         </p>
-          {% endif %}
-          <a href="{{ site.baseurl }}labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
-        </div>
+        {% endif %}
       </div>
     </div>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-
-
-
-    <div>
-      {% include share_buttons.html %}
+      <a href="{{ site.baseurl }}labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
     </div>
   </div>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+
+
+
+<div>
+  {% include share_buttons.html %}
+</div>
+</div>
 </div>
 {% include structure/footer_logos.html %}
 {% include structure/footer.html %}
