@@ -1,4 +1,5 @@
 ---
-title: George Basevi (1794-1845) and the Parthenon frieze
+title: Portrait statuette of George Frideric Handel (1685-1759)
 layout: default
+slug: handel
 ---
