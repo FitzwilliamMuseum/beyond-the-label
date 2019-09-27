@@ -1,179 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
-  <title>{{page.title}}</title>
-
-  {% include /structure/css.html %}
-  {% seo %}
-  {% include /structure/feeds.html %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+    <title>{{page.title}}</title>
+    {% include /structure/css.html %}
+    {% seo %}
+    {% include /structure/feeds.html %}
 </head>
 <body class="doc-body">
 
-  <!-- Screen reader skip to main -->
-  <a class="sr-only sr-only-focusable doc-skip" href="#doc-main-h1">
+<!-- Screen reader skip to main -->
+<a class="sr-only sr-only-focusable doc-skip" href="#doc-main-h1">
     <div class="container">
-      <span class="doc-skip-text">Skip to main content</span>
+        <span class="doc-skip-text">Skip to main content</span>
     </div>
-  </a>
+</a>
 
-  {% include /structure/navigation.html %}
+{% include /structure/navigation.html %}
 
-  {% include /structure/jumbotron.html %}
+{% if page.category %}
+{% assign class = page.category %}
+{% else %}
+{% assign class = 'head' %}
+{% endif %}
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mb-2">
-      </div>
-    </div>
-
-    {% for label in site.data.labeldata %}
-    {% if label.level != "Part" %}
-
-    {% assign loopindex = forloop.index | modulo: 2 %}
-    {% if loopindex == 1  %}
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <div class="card card-body h-100 {% if label.level == "Intro" %}
-        intro-card {% endif %}">
-
-        <div class="container">
-
-          <!-- start image block -->
-          {% if label.object_1_cover_image != blank %}
-          <div class="cover-image">
-            <img src="{{label.object_1_cover_image}}" class="rounded-circle
-            float-right img-fluid thumb-nail p-3" alt="Image associated with
-            {{ label.object_1_title }} ">
-          </div>
-          {% elsif label.object_1_cover_image == blank %}
-          <div class="cover-image">
-            <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle
-            float-right img-fluid thumb-nail p-3" alt="File not found">
-          </div>
-          {% endif %}
-          <!-- end image block -->
-
-          <div class="contents-label">
-            <h3>
-              <a href="{{ label.slug }}">{{ label.label_title }} {{ label.object_1_title }}</a>
-            </h3>
-
-            {% if label.level != "Intro" %}
-            <p>
-              {% if label.object_1 != blank %}
-              {{ label.object_1 }}<br/>
-              {% endif %}
-
-              {% if label.maker != blank %}
-              {{ label.maker }}<br/>
-              {% endif %}
-
-              {% if label.maker != blank %}
-              {{ label.maker_dates }}
-              {% endif %}
-            </p>
-            {% endif %}
-
-            <p>
-              {% if label.label_content != blank %}
-              {{label.label_content | truncate: 300}}
-              {% endif %}
-            </p>
-
-            {% if label.level != "Intro" %}
-            <p class="txt-intro">
-              {% if label.object_1_department != blank %}
-              {{ label.object_1_department }}{% endif %}<br/>
-              {% endif %}
-              {% if label.acquisition_credit_line != blank %}
-              {{ label.acquisition_credit_line}}
-              {% endif %}
-            </p>
-          </div>
-        </div>
-        <a href="{{ label.slug }}" class="btn btn-dark">Read more</a>
-      </div>
-    </div>
-    {% else %}
-
-    <div class="col-md-6 mb-3">
-      <div class="card card-body h-100 {% if label.level == "Intro" %}
-      intro-card {% endif %}">
+{% include /structure/jumbotron.html %}
 
 <div class="container">
-      <!-- start image block -->
-      {% if label.object_1_cover_image != blank %}
-      <div class="cover-image">
-        <img src="{{label.object_1_cover_image}}" class="rounded-circle
-        float-right img-fluid thumb-nail p-3" alt="Image associated with
-        {{ label.object_1_title }} ">
-      </div>
-      {% elsif label.object_1_cover_image == blank %}
-      <div class="cover-image">
-        <img src="{{ site.baseurl}}/images/logos/FitzLogo.png" class="rounded-circle
-        float-right img-fluid thumb-nail p-3" alt="File not found">
+
+    <div class="row">
+        <div class="col-md-12 mb-2 ">
+
+            <h1 id="doc-main-h1">{{ page.title }}</h1>
+        </div>
+    </div>
+
+      {% if page.url == "/" %}
+        <div class="col-12 shadow-sm p-3 mx-auto mb-3 bg-white rounded">
+            {{ content }}
+        </div>
+      {% else %}
+      <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card">
+        <h2>Object data</h2>
+          {{ content }}
       </div>
       {% endif %}
 
-      <!-- end image block -->
-
-      <div class="contents-label">
-        <h3>
-          <a href="{{ label.slug }}">{{ label.label_title }} {{ label.object_1_title }}</a>
-        </h3>
-
-        <!-- label not intro -->
-        {% if label.level != "Intro" %}
-        <p>
-          {% if label.maker != blank %}
-          {{ label.maker }}<br/>
-          {% endif %}
-
-          {% if label.maker != blank %}
-          {{ label.maker_dates }}
-          {% endif %}
-        </p>
-        {% endif %}
-        <!-- end of label not intro -->
-
-        <p>
-          {{label.label_content | truncate: 300}}
-        </p>
-
-        {% if label.level != "Intro" %}
-        <p class="txt-intro">
-          {% if label.object_1_department != blank %}
-          {{ label.object_1_department }}<br/>
-          {% endif %}
-          {% if label.acquisition_credit_line != blank %}
-          {{ label.acquisition_credit_line}}
-          {% endif %}
-        </p>
-        {% endif %}
-      </div>
-    </div>
-      <a href="{{ label.slug }}" class="btn btn-dark">Read more</a>
-    </div>
-  </div>
 </div>
-{% endif %}
-{% endif %}
-{% endfor %}
+
+<div class="container">
+    {% include share_buttons.html %}
+</div>
 
 
-
-<div>
-  {% include share_buttons.html %}
-</div>
-</div>
-</div>
 {% include structure/footer_logos.html %}
 {% include structure/footer.html %}
 {% include structure/javascript.html %}
 {% include analytics/google_analytics.html %}
+
 
 </body>
 </html>
