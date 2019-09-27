@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: label
 title: Poussin's Virtual Reality Extreme Unction
 slug: poussin
 ---
@@ -7,13 +7,13 @@ slug: poussin
 
 {% assign data = site.data.labeldata | where:"slug", page.slug %}
 <!-- {{ data }} -->
-
+<img src="{{ data[0]object_1_cover_image string }}" />
 <p>
-Title: {{ data[0]object_1_title }} <br />
-Object number: {{ data[0]object_1 }}<br />
-Production: {{ data[0]object_1_production_information }}<br />
-<img src="{{ data[0]object_1_cover_image}}" />
-Label type: {{ data[0]label_type }} <br />
-Displayed: {{ data[0]display_location }}<br />
-Acquisition: {{ data[0]acquisition_credit_line }}<br />
+Title: {{ data[0]object_1_title string}} <br />
+Object number: {{ data[0]object_1 string }}<br />
+Production: {{ data[0]object_1_production_information string}}<br />
+
+Label type: {{ data[0]label_type string }} <br />
+Displayed: {{ data[0]display_location string }}<br />
+Acquisition: {{ data[0]acquisition_credit_line string }}<br />
 </p>
