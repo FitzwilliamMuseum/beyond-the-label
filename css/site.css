@@ -141,6 +141,14 @@ video {
     object-fit: cover;
 }
 
+.thumb-nail {
+position: relative;
+width: 150px;
+height: 150px;
+overflow: hidden;
+}
+
+
 .carousel-control-prev, .carousel-control-next, .carousel-indicators li {
     background-color: hsla(0, 93%, 31%, 0.98)
 }
@@ -200,7 +208,11 @@ label.cm-app-label {
 background-color:rgba(115, 18, 0, 0.1);
 }
 
-
+.not-intro {
+text-align:right;
+font-size:small;
+color:#686868";
+}
 
 @media  (max-width : 480px) {
   .shorten-words {
