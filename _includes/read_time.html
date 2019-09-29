@@ -4,8 +4,7 @@
 {% assign words = content | strip_html | number_of_words %}
 {% endif %}
 {% if words < words_per_minute %}
-{{ site.data.ui-text[site.locale].less_than | default: "Less than" }}<span
-class="ml-2 badge badge-light mr-2">1</span> {{ site.data.ui-text[site.locale].minute_read
+{{ site.data.ui-text[site.locale].less_than | default: "Less than" }}<span class="ml-2 badge badge-light mr-2">1</span> {{ site.data.ui-text[site.locale].minute_read
   | default: "minute to read" }}
   {% elsif words == words_per_minute %}
   <span class="ml-2 badge badge-light mr-2">1</span> {{ site.data.ui-text[site.locale].minute_read
