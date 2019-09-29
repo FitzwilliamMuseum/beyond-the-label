@@ -41,10 +41,12 @@
 
       {% if page.url == "/" %}
         <div class="col-12 shadow-sm p-3 mx-auto mb-3 bg-white rounded">
+          <span class="mb-3 mt-3 badge badge-wine float-right p-2">{% include read_time.html %}</span>
             {{ content }}
         </div>
       {% else %}
       <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card">
+          <span class="mb-3 mt-3 badge badge-wine float-right p-2">{% include read_time.html %}</span>
           {{ content }}
       </div>
       {% endif %}
