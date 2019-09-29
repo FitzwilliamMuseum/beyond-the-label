@@ -256,3 +256,14 @@ label.cm-app-label {
   margin-left: 10%;
   margin-right: 10%;
 }
+/* Progress CSS */
+.progress {
+    background: maroon;
+    position: fixed;
+    top: 3.4rem;
+    bottom: auto;
+    left: 0;
+    width: 0%;
+    height: 8px;
+    z-index: 10000;
+}
