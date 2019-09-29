@@ -1,18 +1,18 @@
 @media (min-width: 576px) {
-.head {
+  .head {
     background-image: url(../images/layouts/g3.jpg);
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 8rem;
-    }
+  }
 }
 
 .masthead {
-    background-image: url(../images/layouts/g3_roof.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
+  background-image: url(../images/layouts/g3_roof.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
 @media screen and (max-width: 600px) {
@@ -26,11 +26,11 @@
   }
 }
 footer, .chip-icon {
-    background-color: #731200;
+  background-color: #731200;
 }
 
 .bg-black {
-    background-color: #000000!important;
+  background-color: #000000!important;
 }
 
 
@@ -39,9 +39,9 @@ body {
 }
 
 a {
-    background-color: transparent;
-    color: #731100;
-    text-decoration: none;
+  background-color: transparent;
+  color: #731100;
+  text-decoration: none;
 }
 
 article {
@@ -52,11 +52,11 @@ article {
 
 video {
 
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .share a {
-    color: #fff;
+  color: #fff;
 }
 
 .cd-nugget-info {
@@ -104,7 +104,7 @@ video {
   bottom: 40px;
   right: 10px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   /* image replacement properties */
   overflow: hidden;
   text-indent: 100%;
@@ -157,80 +157,80 @@ video {
 
 
 .thumb-post img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .thumb-nail {
-position: relative;
-width: 150px;
-height: 150px;
-overflow: hidden;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 
 .carousel-control-prev, .carousel-control-next, .carousel-indicators li {
-    background-color: hsla(0, 93%, 31%, 0.98)
+  background-color: hsla(0, 93%, 31%, 0.98)
 }
 #sponsors img {
-    height: 50px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .carousel-item img {
-   min-width: auto;
-   max-height:auto;
- }
+  min-width: auto;
+  max-height:auto;
+}
 
 .badge-wine {
-    background-color: #731200;
-    color: #fff;
-    padding: 10px;
+  background-color: #731200;
+  color: #fff;
+  padding: 10px;
 }
 
 .btn-wine {
-    background-color: #731200;
-    color: #fff;
-    padding: 10px;
+  background-color: #731200;
+  color: #fff;
+  padding: 10px;
 }
 
 .max-coffins {
-    max-width: 100%;
+  max-width: 100%;
 }
 .share li {
-    list-style: none;
-    margin-left: -40px;
+  list-style: none;
+  margin-left: -40px;
 }
 
 #error {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .contact .btn {
-    background-color: #731200;
-    color: #fff;
+  background-color: #731200;
+  color: #fff;
 }
 
 label.cm-app-label {
-    color: white;
+  color: white;
 }
 .btn {
-    white-space:normal !important;
-    word-wrap: break-word;
+  white-space:normal !important;
+  word-wrap: break-word;
 }
 .navbar nav {
   display: inline;
 }
 
 .intro-card {
-background-color:rgba(115, 18, 0, 0.1);
+  background-color:rgba(115, 18, 0, 0.1);
 }
 
 .not-intro {
-text-align:right;
-font-size:small;
-color:#686868;
+  text-align:right;
+  font-size:small;
+  color:#686868;
 }
 
 @media  (max-width : 480px) {
@@ -240,7 +240,7 @@ color:#686868;
 }
 
 .shareTwitter a {
-    color: #000;
+  color: #000;
 }
 .navbar {
   z-index: 2147483647;
@@ -249,4 +249,8 @@ color:#686868;
 .txt-intro {
   text-align:left;
   color:#686868;
+}
+
+.division {
+  border-top: 12px solid maroon;
 }
