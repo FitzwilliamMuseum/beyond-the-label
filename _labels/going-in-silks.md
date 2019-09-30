@@ -65,3 +65,5 @@ Dagmar Schäfer, Giorgio Riello, Luca Molà, eds.,  *Threads of Global Desire: S
 
 
 [Dr Hester Lees-Jeffries](https://www.english.cam.ac.uk/people/Hester.Lees-Jeffries/) is a Senior Lecturer in the Faculty of English and a Fellow of St Catharine’s College, Cambridge. She works on Renaissance literature, especially Shakespeare, and has a particular interest in the relationships between literature and visual and material culture. She is the author of Shakespeare and Memory (2013) and England’s Helicon: Fountains in Early Modern Literature and Culture (2007), as well as many essays and articles. Her new book, Textile Shakespeare, will be published by Oxford University Press in 2021. [@starcrossed2018](https://www.twitter.com/starcrossed2018)
+
+<span class="mb-1 mt-1 badge badge-dark p-2">{{ data[0]display_location }}</span>

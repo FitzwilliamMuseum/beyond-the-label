@@ -24,6 +24,9 @@
   .hide {
     padding-top:5rem;
   }
+  .division {
+    text-align: center;
+  }
 }
 footer, .chip-icon {
   background-color: #731200;
