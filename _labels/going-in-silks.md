@@ -4,27 +4,6 @@ layout: default
 slug: going-in-silks
 ---
 
-<div class="container">
-{% for label in site.data.labeldata %}
-{% if label.slug == post.slug %}
-  <div class="row">
-    <div class="col">
-      <img src="{{label.object_1_cover_image}}" class="img-fluid p-3 mx-2 float-right" height="250 /">
-    </div>
-
-    <div class="col">
-      <h2>Object data</h2>
-        <p>
-        {{ label.object_1_title }}<br/>
-        {{ label.object_1_production_information }}  <br/>
-        {{ label.maker }}  <br/>
-        {{ label.technique_description }}
-        </p>
-    </div>
-  </div>
-{% endif %}
-{% endfor %}
-</div>
 
 *Some textile contexts for portraits of Charles I and Henrietta Maria*
 
