@@ -15,3 +15,4 @@ Label type: {{ data[0]label_type }} <br />
 Displayed: {{ data[0]display_location }}<br />
 Acquisition: {{ data[0]acquisition_credit_line }}<br />
 </p>
+<span class="mb-1 mt-1 badge badge-dark p-2">{{ data[0]display_location }}</span>
