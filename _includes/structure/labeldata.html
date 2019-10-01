@@ -1,5 +1,5 @@
 {% assign data = site.data.labeldata | where:"slug", page.slug %}
-{% if data != blank %}
+{% if data != blank and data[0]label_type != 'Panel'%}
 <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card h-100">
 
   <h3>Collections data</h3>
