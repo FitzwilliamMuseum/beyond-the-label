@@ -1,6 +1,6 @@
 {% assign data = site.data.labeldata | where:"slug", page.slug %}
 {% if data != blank %}
 {% if data[0]label_content != blank %}
-{{ data[0]label_content }}
+    {{ data[0]label_content  | newline_to_br }}
 {% endif %}
 {% endif %}
