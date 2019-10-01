@@ -270,3 +270,7 @@ label.cm-app-label {
     height: 8px;
     z-index: 10000;
 }
+
+.fit-image {
+  display: inline-block;
+}

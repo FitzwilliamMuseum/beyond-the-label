@@ -3,8 +3,6 @@ title: Going in silks
 layout: default
 slug: going-in-silks
 ---
-
-
 *Some textile contexts for portraits of Charles I and Henrietta Maria*
 
 Luxurious fabrics are one of the most striking features of portraits of Charles I and Henrietta Maria, and especially the glowing, flowing silks. But what might those silks have meant to people in the early seventeenth century? What did ‘silk’ evoke for them, in terms of money, status – and, perhaps, literary associations?
