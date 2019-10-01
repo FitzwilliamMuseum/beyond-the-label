@@ -10,3 +10,13 @@
   </div>
 </div>
 {% endif %}
+
+{% if page.video != blank %}
+<div class="shadow-sm p-3 mx-auto mb-3 rounded">
+  <h3>Watch</h3>
+  <div class="embed-responsive">
+    <div class="player " data-plyr-provider="youtube"
+    data-plyr-embed-id="{{ page.video }}"></div>
+  </div>
+</div>
+{% endif %}

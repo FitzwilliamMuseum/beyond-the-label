@@ -15,8 +15,9 @@
 {% if page.layout == 'default' %}
 <script defer type="text/javascript" src="{{ site.baseurl }}/js/progress.js"></script>
 {% endif %}
-
+<!-- Plyr for video and audio -->
 {% if page.video or page.audio %}
-<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.6/plyr.min.js.map"></script>
+<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.6/plyr.min.js"></script>
+<script defer type="text/javascript" src="{{ site.baseurl }}/js/plyr.js"></script>
 {% endif %}
 <!-- End of body -->
