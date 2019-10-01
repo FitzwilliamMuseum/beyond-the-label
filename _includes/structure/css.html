@@ -8,3 +8,7 @@
 <link href="{{ site.baseurl }}/css/material.min.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/css/site.css" rel="stylesheet">
 <link rel="icon" href="{{ site.baseurl }}/favicon.ico"/>
+
+{% if page.video or page.audio %}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.6/plyr.css" rel="stylesheet">
+{% endif %}

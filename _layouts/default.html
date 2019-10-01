@@ -34,7 +34,6 @@
 
     <div class="row">
         <div class="col-md-12 mb-2 ">
-
             <h1 id="doc-main-h1">{{ page.title }}</h1>
         </div>
     </div>
@@ -43,14 +42,19 @@
         <div class="col-12 shadow-sm p-3 mx-auto mb-3 bg-white rounded word-count">
           <span class="mb-3 mt-3 badge badge-wine float-right p-2">{% include read_time.html %}</span>
             {{ content }}
-
         </div>
       {% else %}
+
       <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card word-count minimum h-100">
           <span class="mb-3 badge badge-wine float-right p-2 ">{% include read_time.html %}</span>
           {{ content }}
           {% include /structure/label.html %}
       </div>
+      <!-- audio -->
+        {% if page.audio or page.video %}
+          {% include /structure/video.html %}
+        {% endif %}
+        <!-- end audio -->
       {% include /structure/labeldata.html %}
 
       {% endif %}

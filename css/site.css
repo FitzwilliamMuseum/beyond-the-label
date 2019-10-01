@@ -281,3 +281,6 @@ label.cm-app-label {
 body {
   font-size: 1.2rem!important;
 }
+.audio-player {
+  min-height: 60px;
+}
