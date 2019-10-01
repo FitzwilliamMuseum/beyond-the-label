@@ -52,12 +52,7 @@
       </div>
 
       {% else %}
-
-      <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card word-count minimum h-100">
-          <span class="mb-3 badge badge-wine float-right p-2 ">{% include read_time.html %}</span>
-          {{ content }}
-          {% include /structure/label.html %}
-      </div>
+        {% include /structure/label.html %}
       <!-- audio -->
         {% if page.audio or page.video %}
           {% include /structure/video.html %}
