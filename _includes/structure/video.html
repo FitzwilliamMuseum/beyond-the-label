@@ -1,0 +1,12 @@
+{% if page.audio != blank %}
+<div class="shadow-sm p-3 mx-auto mb-3 rounded">
+  <h3>Listen</h3>
+  <div class="plyr">
+    <div class="embed-responsive audio-player">
+    <audio id="player" controls class="embed-responsive-item">
+      <source src="/audio/{{ page.audio }}" type="audio/mp3" />
+    </audio>
+    </div>
+  </div>
+</div>
+{% endif %}
