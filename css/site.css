@@ -274,3 +274,6 @@ label.cm-app-label {
 .fit-image {
   display: inline-block;
 }
+.minimum {
+  min-height: 200px;
+}
