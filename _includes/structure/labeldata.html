@@ -1,49 +1,51 @@
-{% assign data = site.data.labeldata | where:"slug", page.slug %}
-{% if data != blank and data[0]label_type != 'Panel'%}
-<div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card h-100">
+{% assign ldata = site.data.labeldata | where:"slug", page.slug %}
+
+
 
   <h3>Collections data</h3>
-
+{% for data in ldata %}
+{% if data != blank and data.label_type != 'Panel' and data.level == 'Object' %}
+<div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card h-100">
 <div class="row">
   <div class="col-md-6">
     <p class="align-top">
-      {% if data[0]object_1_title != blank %}
-      Title: {{ data[0]object_1_title | string}} <br />
+      {% if data.object_1_title != blank %}
+      Title: {{ data.object_1_title | string}} <br />
       {% endif %}
 
-      {% if data[0]object_1 != blank %}
-      Object number: {{ data[0]object_1 | string }}<br />
+      {% if data.object_1 != blank %}
+      Object number: {{ data.object_1 | string }}<br />
       {% endif %}
 
-      {% if data[0]object_1_production_information != blank %}
-      Production: {{ data[0]object_1_production_information | string}}<br />
+      {% if data.object_1_production_information != blank %}
+      Production: {{ data.object_1_production_information | string}}<br />
       {% endif %}
 
-      {% if data[0]acquisition_credit_line != blank %}
-      Acquisition: {{ data[0]acquisition_credit_line | string }}<br />
+      {% if data.acquisition_credit_line != blank %}
+      Acquisition: {{ data.acquisition_credit_line | string }}<br />
       {% endif %}
 
-      {% if data[0]maker != blank %}
-      Maker: {{ data[0]maker | string }}<br />
+      {% if data.maker != blank %}
+      Maker: {{ data.maker | string }}<br />
       {% endif %}
 
-      {% if data[0]technique_description != blank %}
-      Technique: {{ data[0]technique_description | string }}<br />
+      {% if data.technique_description != blank %}
+      Technique: {{ data.technique_description | string }}<br />
       {% endif %}
 
-      {% if data[0]object_1_department != blank %}
-      Department: {{ data[0]object_1_department }}<br />
+      {% if data.object_1_department != blank %}
+      Department: {{ data.object_1_department }}<br   />
       {% endif %}
 
-      {% if data[0]object_1_priref != blank %}
-      <a href="http://data.fitzmuseum.cam.ac.uk/id/object/{{data[0]object_1_priref}}">View on Collections Explorer</a>
+      {% if data.object_1_priref != blank %}
+      <a href="http://data.fitzmuseum.cam.ac.uk/id/object/{{data.object_1_priref}}">View on Collections Explorer</a>
       {% endif %}
 
 
     </p>
   </div>
   <div class="col-md-6 fit-image ">
-    <img src="{{ data[0]object_1_cover_image string }}"
+    <img src="{{ data.object_1_cover_image string }}"
     class="img-fluid img-rounded float-right p-2 align-top" />
   </div>
 </div>
@@ -53,3 +55,5 @@
 
 </div>
 {% endif %}
+
+{% endfor %}
