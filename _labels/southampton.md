@@ -6,6 +6,10 @@ slug: southampton
 
 Elizabeth Vernon (1572 – 1655), one of the chief ladies in waiting to Queen Elizabeth I, secretly married Henry Wriothesley, 3rd Earl of Southampton (1573-1624) in 1598. He was the patron of several poets and writers, including William Shakespeare (1564-1616) and is depicted in two portrait miniatures, currently on display in gallery 32.
 
+
+{% include /structure/labelpart.html %}
+
+
 Nicholas Hilliard  
 1547-1619  
 **Henry Wriothesley, 3rd Earl of Southampton, 1594**  

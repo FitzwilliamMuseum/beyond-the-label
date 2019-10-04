@@ -2,7 +2,6 @@
 layout: default
 title: Before and After
 slug: before-and-after
-sketchfab: a23761ecbda14e43b7f96ee07e83a02e
 ---
 
 <div class="container">
