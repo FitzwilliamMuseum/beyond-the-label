@@ -32,8 +32,14 @@
       {% endif %}
 
       {% if data[0]object_1_department != blank %}
-      Department: {{ data[0]object_1_department }}
+      Department: {{ data[0]object_1_department }}<br />
       {% endif %}
+
+      {% if data[0]object_1_priref != blank %}
+      <a href="http://data.fitzmuseum.cam.ac.uk/id/object/{{data[0]object_1_priref}}">View on Collections Explorer</a>
+      {% endif %}
+
+
     </p>
   </div>
   <div class="col-md-6 fit-image ">

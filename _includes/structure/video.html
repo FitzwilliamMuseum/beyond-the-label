@@ -1,6 +1,5 @@
 {% if page.audio != blank %}
 <div class="shadow-sm p-3 mx-auto mb-3 rounded">
-  <h3>Listen</h3>
   <div class="plyr">
     <div class="embed-responsive audio-player">
     <audio id="player" controls class="embed-responsive-item">
@@ -13,7 +12,6 @@
 
 {% if page.video != blank %}
 <div class="shadow-sm p-3 mx-auto mb-3 rounded">
-  <h3>Watch</h3>
   <div class="embed-responsive">
     <div class="player " data-plyr-provider="youtube"
     data-plyr-embed-id="{{ page.video }}"></div>
