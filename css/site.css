@@ -170,6 +170,12 @@ video {
   overflow: hidden;
 }
 
+.label-thumb {
+  position: relative;
+  max-width:100%;
+  max-height:400px;
+}
+
 
 .carousel-control-prev, .carousel-control-next, .carousel-indicators li {
   background-color: hsla(0, 93%, 31%, 0.98)
