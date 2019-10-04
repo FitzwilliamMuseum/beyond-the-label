@@ -20,7 +20,7 @@ No. 3856
 
 Peter Oliver  
 c.1594-1647  
-**Henry Wriothesley, 3rd Earl of Southampton, c.1620**
+**Henry Wriothesley, 3rd Earl of Southampton, c.1620**  
 Watercolour on vellum on card  
 Painted some twenty-five years after Hilliard’s portrait of Southampton, this image of the Earl records the sobering effects of those intervening years. Southampton was imprisoned in the Tower for his part in the 1601 Essex’s Rebellion against Elizabeth I, which was led by Robert Devereux, 2nd Earl of Essex (1565-1601). James I, having counted Essex as one of his sworn allies, immediately released Wriothesley from prison upon his succession to the throne in 1603 and made him a Knight of the Garter. He wears the Ribbon of the Order of the Garter around his neck.  
 
