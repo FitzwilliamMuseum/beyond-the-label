@@ -37,7 +37,6 @@
             <h1 id="doc-main-h1">{{ page.title }}</h1>
         </div>
     </div>
-
       {% if page.url == "/" %}
 
         <div class="col-12 shadow-sm p-3 mx-auto mb-3 bg-white rounded word-count">
@@ -52,12 +51,21 @@
       </div>
 
       {% else %}
+      
         {% include /structure/label.html %}
       <!-- audio -->
         {% if page.audio or page.video %}
           {% include /structure/video.html %}
         {% endif %}
         <!-- end audio -->
+
+        <!-- 3d -->
+        {% if page.sketchfab %}
+          {% include /structure/sketchfab-3d-viewer.html %}
+        {% endif %}
+
+
+        <!-- end 3d -->
         {% include /structure/labeldata.html %}
       {% endif %}
 

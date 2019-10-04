@@ -1,0 +1,9 @@
+{% if page.sketchfab != blank %}
+<div class="shadow-sm p-3 mx-auto mb-3 rounded">
+  <div class="embed-responsive embed-responsive-16by9 sketchfab-embed-wrapper">
+    <iframe class="embed-responsive-item" title="A 3D model"
+    src="https://sketchfab.com/models/{{ page.sketchfab }}/embed"
+    frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  </div>
+</div>
+{% endif %}
