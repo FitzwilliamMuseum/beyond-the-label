@@ -17,6 +17,8 @@ His particular passion was for literary and musical manuscripts.  His library he
 
 <a href="https://www.fitzmuseum.cam.ac.uk/gallery/hiddenhistories/biographies/bio/love/fitzwilliam_biography.html" class="btn btn-dark">Read more about Richard Fitzwilliam, 7th Viscount Fitzwilliam of Merrion</a>
 
-Former Assistant Director for Collections and Keeper of Antiquities, Dr Lucilla Burn, published a history of the Fitzwilliam Museum for the Museum's bicentenary in 2016.
+ Former Assistant Director for Collections and Keeper of Antiquities, Dr Lucilla Burn, published a history of the Fitzwilliam Museum for the Museum's bicentenary in 2016.
+
+<a href="http://www.fitzwilliammuseumshop.co.uk/product/the-fitzwilliam-museum-a-history/"><img src="/images/page/FitzBook.jpg"></a>
 
 <a href="http://www.fitzwilliammuseumshop.co.uk/product/the-fitzwilliam-museum-a-history/" class="btn btn-dark">Buy a copy of <em>The Fitzwilliam Museum - a History</em></a>
