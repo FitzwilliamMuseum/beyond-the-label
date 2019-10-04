@@ -1,8 +1,7 @@
 {% assign ldata = site.data.labeldata | where:"slug", page.slug %}
+{% if ldata[0] != blank and data[0]label_type != 'Panel' and data[0]level == 'Object' %}
+ <h3>Collections data</h3>
 
-
-
-  <h3>Collections data</h3>
 {% for data in ldata %}
 {% if data != blank and data.label_type != 'Panel' and data.level == 'Object' %}
 <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card h-100">
@@ -57,3 +56,5 @@
 {% endif %}
 
 {% endfor %}
+
+{% endif %}
