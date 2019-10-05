@@ -25,18 +25,19 @@ These will have identifiers to show the method which was used to interact so we 
 
 Copyright the University of Cambridge unless noted otherwise.
 
-Website by [@portableant](https://github.com/portableant)
+Website by [@portableant](https://github.com/portableant) and [@choekyi](https://github.com/choekyi)
 
 CSS framework: http://daemonite.github.io/material/
 
-## License
+## Licenses
 
-CC-BY for code, CC-BY-NC-SA-ND for content (text and images) unless stated
-otherwise.
+* AGPL for code
+* CC-BY for content (text and images) unless stated
+otherwise
+* Some content is under institutional licence and will be highlighted if so.
 
 ## Contributing guidelines
 
 If you want to contribute fixes to this site, you are very welcome to do so. To
-do this, either add a [bug report under issues](https://github.com/FitzwilliamMuseum/beyond-the-label/issues)
-or fork the repository and create a new branch for proposed fixes and then submit
+do this, either add a [bug report under issues](https://github.com/FitzwilliamMuseum/beyond-the-label/issues) or fork the repository and create a new branch for proposed fixes and then submit
 a pull request.
