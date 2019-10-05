@@ -11,10 +11,9 @@ Gainsborough owned two lay figures, or artists’ mannequins. One is recorded as
 
 To an extent, Gainsborough’s use of lay figures can be considered to be a figurative counterpart to his practice of creating model landscapes in his studio, substituting pieces of coal for rocks and broccoli for vegetation. His imagination effortlessly fused the real and the artificial, the sensual and the virtual, to create a unique pictorial world.
 
-Jane Munro
+<img src="/images/profiles/jane-munro.jpg" width="150" class="p-3 img-fluid rounded-circle float-left" />
 
-Keeper, Paintings, Drawings and Prints
-
-Fitzwilliam Museum, Cambridge
-
+Jane Munro  
+Keeper, Paintings, Drawings and Prints  
+Fitzwilliam Museum, Cambridge  
 Further reading: Jane Munro, Silent Partners. Artists and Mannequin from Function to Fetish, (London and New Haven: Yale University Press), 2014
