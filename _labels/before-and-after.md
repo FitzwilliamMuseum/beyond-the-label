@@ -3,32 +3,40 @@ layout: default
 title: Before and After
 slug: before-and-after
 ---
+<div class="col-md-12 mb-3 row">
+  <div class="col-md-6 rounded minimum h-100">
+    <div class="container h-100">
+      <div>
+        <img src="/images/page/Before-Getty.jpg" class="img img-fluid label-thumb rounded p-3 mx-auto">
+        <p>
+        William Hogarth (1697-1764)<br/>
+        <em>Before</em>, 1730–1731, oil on canvas<br/>
+        40 × 33.7 cm, 78. PA.204<br/>
+        The J. Paul Getty Museum, Los Angeles<br/>
+        <small>Digital image courtesy of the Getty's <a href="http://www.getty.edu/about/whatwedo/opencontent.html">Open Content Program</a>.</small>
+        </p>
+      </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-<img src="/images/page/Before-Getty.jpg" class="img img-responsive label-thumb">
-William Hogarth (1697-1764)<br/>
-<em>Before</em>, 1730–1731, oil on canvas<br/>
-40 × 33.7 cm, 78. PA.204<br/>
-The J. Paul Getty Museum, Los Angeles<br/>
-<small>Digital image courtesy of the Getty's <a href="http://www.getty.edu/about/whatwedo/opencontent.html">Open Content Program</a>.</small>
-
-</div>
-    <div class="col-sm">
-<img src="/images/page/After-Getty.jpg" class="img img-responsive label-thumb">
-William Hogarth (1697-1764)<br/>
-<em>After</em>, 1730–1731, oil on canvas<br/>
-39.4 × 33.7 cm, 78. PA.205<br/>
-The J. Paul Getty Museum, Los Angeles<br/>
-<small>Digital image courtesy of the Getty's <a href="http://www.getty.edu/about/whatwedo/opencontent.html">Open Content Program</a>.</small>
     </div>
+  </div>
 
+  <div class="col-md-6 rounded minimum h-100">
+    <div class="container h-100">
+      <div>
+        <img src="/images/page/After-Getty.jpg" class="img img-fluid label-thumb rounded p-3 mx-auto">
+        <p>
+        William Hogarth (1697-1764)<br/>
+        <em>After</em>, 1730–1731, oil on canvas<br/>
+        39.4 × 33.7 cm, 78. PA.205<br/>
+        The J. Paul Getty Museum, Los Angeles<br/>
+        <small>Digital image courtesy of the Getty's <a href="http://www.getty.edu/about/whatwedo/opencontent.html">Open Content Program</a>.</small>
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="row">
-  &nbsp;
-  </div>
+
 </div>
+
 
 Hogarth painted two versions of Before and After, an outdoor pair, on display here, and one set indoors (now in the collection of The J. Paul Getty Museum, Los Angeles). Hogarth employed the same narrative sequence in both, i.e. before and after a couple have sex, but the action in the interior scenario takes place in the woman’s bedchamber rather than a wooded glade.
 
@@ -40,25 +48,28 @@ After Hogarth was able to add minute but legible lettering to the book at the ma
 
 <div class="container">
   <div class="row">
-    <div class="col-sm">
 
-
-
-<img src="/images/page/22.K.3-26_dc1.jpg" class="img img-responsive label-thumb"><br/>
-William Hogarth (1697-1764)<br/>
-<em>Before</em>, 1736, etching and engraving<br/>
-40.5 × 32.5 cm, 22.K.3-26<br/>
-Fitzwilliam Museum<br/>
-<small><a href="http://data.fitzmuseum.cam.ac.uk/id/object/130055">View on Collections Explorer</a></small>
-
-</div>
-    <div class="col-sm">
-<img src="/images/page/22.K.3-27_dc1.jpg" class="img img-responsive label-thumb"><br/>
-William Hogarth (1697-1764)<br/>
-<em>After</em>, 1736, etching and engraving<br/>
-39.4 × 33.7 cm, 22.K.3-27<br/>
-Fitzwilliam Museum<br/>
-<small><a href="http://data.fitzmuseum.cam.ac.uk/id/object/130056">View on Collections Explorer</a></small>
+    <div class="col">
+      <img src="/images/page/22.K.3-26_dc1.jpg" class="img img-responsive label-thumb">
+      <p>
+      William Hogarth (1697-1764)<br/>
+      <em>Before</em>, 1736, etching and engraving<br/>
+      40.5 × 32.5 cm, 22.K.3-26<br/>
+      Fitzwilliam Museum<br/>
+      <small><a class="btn btn-dark mt-2" href="http://data.fitzmuseum.cam.ac.uk/id/object/130055">View on Collections Explorer</a></small>
+      </p>
     </div>
+
+    <div class="col">
+      <img src="/images/page/22.K.3-27_dc1.jpg" class="img img-responsive label-thumb">
+      <p>
+      William Hogarth (1697-1764)<br/>
+      <em>After</em>, 1736, etching and engraving<br/>
+      39.4 × 33.7 cm, 22.K.3-27<br/>
+      Fitzwilliam Museum<br/>
+      <small><a class="btn btn-dark mt-2" href="http://data.fitzmuseum.cam.ac.uk/id/object/130056">View on Collections Explorer</a></small>
+      </p>
+    </div>
+
   </div>
 </div>
