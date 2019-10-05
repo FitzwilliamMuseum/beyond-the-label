@@ -1,17 +1,20 @@
-<div class="container">
-  <div class="row">
-
-{% assign data = site.data.labeldata | where:"slug", page.slug %}
-{% for fdata in data %}
-{% if fdata != blank and fdata.level != 'Object'%}
-    <div class="col-sm">
-<img src="{{ fdata.object_1_cover_image }}" class="img img-responsive label-thumb">
-<p>{{fdata.object_1_title}}, {{fdata.object_1_production_information}}<br/>
-{{fdata.maker}}<br/>
-<small><a href="http://data.fitzmuseum.cam.ac.uk/id/object/{{fdata.object_1_priref}}">View on Collections Explorer</a></small></p>
-
+<div class="row mb-3">
+  {% assign data = site.data.labeldata | where:"slug", page.slug %}
+  {% for fdata in data %}
+    {% if fdata != blank and fdata.level != 'Object'%}
+    <div class="col rounded minimum h-100">
+      <div class="container h-100">
+        <div>
+          <img src="{{ fdata.object_1_cover_image }}" class="img img-fluid label-thumb rounded p-3 mx-auto">
+          <p>{{fdata.object_1_title}}, {{fdata.object_1_production_information}}<br/>
+            {{fdata.maker}}
+          </p>
+        </div>
+        <div>
+          <a class="btn btn-dark" href="http://data.fitzmuseum.cam.ac.uk/id/object/{{fdata.object_1_priref}}">View on Collections Explorer</a>
+        </div>
+      </div>
     </div>
-{% endif %}
-{% endfor %}
-</div>
+    {% endif %}
+  {% endfor %}
 </div>
