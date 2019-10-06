@@ -176,6 +176,14 @@ video {
   max-height:400px;
 }
 
+.carousel-caption {
+	color: #000;
+	bottom:-60px;
+	font-size:smaller;
+}
+
+.carousel-inner { padding-bottom:80px; }
+
 
 .carousel-control-prev, .carousel-control-next, .carousel-indicators li {
   background-color: hsla(0, 93%, 31%, 0.98)
