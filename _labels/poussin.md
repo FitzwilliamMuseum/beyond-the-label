@@ -19,3 +19,5 @@ Keeper, Paintings, Drawings and Prints
 Fitzwilliam Museum, Cambridge  
 Further reading: Jane Munro ed., *Silent Partners. Artists and Mannequin from Function to Fetish*, (London and New Haven: Yale University Press), 2014
 
+<br clear="all"/>
+To see Nicolas Poussin's use of wax figures  see <a href="https://www.fitzmuseum.cam.ac.uk/calendar/whatson/poussin%E2%80%99s-virtual-reality">Poussin's Virtual Reality</a> display in the Courtauld Gallery
