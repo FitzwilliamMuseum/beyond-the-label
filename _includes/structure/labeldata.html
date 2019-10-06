@@ -1,6 +1,6 @@
 {% assign ldata = site.data.labeldata | where:"slug", page.slug %}
 {% if ldata[0] != blank and data[0]label_type != 'Panel' and data[0]level == 'Object' %}
- <h3>Collections data</h3>
+ <h2>Collections data</h2>
 
 {% for data in ldata %}
 {% if data != blank and data.label_type != 'Panel' and data.level == 'Object' %}

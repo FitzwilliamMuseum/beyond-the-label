@@ -30,6 +30,7 @@ It is not simply the volume of silk, however, and its display of the sitters’ 
 
 The rendering of textiles, their contours and folds, the way in which they drape or crease or pucker or dimple or ‘take’ the light, and their suggestion (or not) of a body beneath are some of the measures of the skill of a painter, and a source of pleasure as much as of admiration for the viewer. Portraits from the court of Charles I, such as those by Van Dyck and Mytens, sometimes seem to be more interested in silk than in their sitters, their textiles a form of opulence at once displaying the skill of the artist and the wealth of the sitter. And there is an intriguing paradox here, especially for the visitor to a modern gallery or, even more, an online viewer: the sensuality and tactility of silks, brocades, satins, and velvets, fine linens and leathers, furs and jewels – and skin – can been seen and imagined, but they can never be felt or touched. So vividly present in the two-dimensional surface of the paint, the silks, and the rest, remain as intangible as red or sky or shadow.
 
+[Dr Hester Lees-Jeffries](https://www.english.cam.ac.uk/people/Hester.Lees-Jeffries/) is a Senior Lecturer in the Faculty of English and a Fellow of St Catharine’s College, Cambridge. She works on Renaissance literature, especially Shakespeare, and has a particular interest in the relationships between literature and visual and material culture. She is the author of Shakespeare and Memory (2013) and England’s Helicon: Fountains in Early Modern Literature and Culture (2007), as well as many essays and articles. Her new book, Textile Shakespeare, will be published by Oxford University Press in 2021. [@starcrossed2018](https://www.twitter.com/starcrossed2018)
 
 
 #### Further reading:
@@ -41,6 +42,6 @@ Anna Reynolds, *In Fine Style: The Art of Tudor and Stuart Fashion* (2013)
 Dagmar Schäfer, Giorgio Riello, Luca Molà, eds.,  *Threads of Global Desire: Silk in the Pre-Modern World* (2018)
 
 
-[Dr Hester Lees-Jeffries](https://www.english.cam.ac.uk/people/Hester.Lees-Jeffries/) is a Senior Lecturer in the Faculty of English and a Fellow of St Catharine’s College, Cambridge. She works on Renaissance literature, especially Shakespeare, and has a particular interest in the relationships between literature and visual and material culture. She is the author of Shakespeare and Memory (2013) and England’s Helicon: Fountains in Early Modern Literature and Culture (2007), as well as many essays and articles. Her new book, Textile Shakespeare, will be published by Oxford University Press in 2021. [@starcrossed2018](https://www.twitter.com/starcrossed2018)
+
 
 <span class="mb-1 mt-1 badge badge-dark p-2">{{ data[0]display_location }}</span>

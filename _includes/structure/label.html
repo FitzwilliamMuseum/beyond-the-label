@@ -3,9 +3,10 @@
 <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card word-count minimum h-100">
     <span class="mb-3 badge badge-wine float-right p-2 ">{% include read_time.html %}</span>
     {{ content }}
-    {% if data[0]label_content != blank %}
-        {{ data[0]label_content | newline_to_br }}
-    {% endif %}
+ <!--   {% if data[0]label_content != blank %}
+        {{ data[0]label_content | newline_to_br }} 
+
+    {% endif %}-->
 </div>
 {% elsif content != blank %}
 <div class="shadow-sm p-3 mx-auto mb-3 rounded intro-card word-count minimum h-100">
@@ -21,7 +22,7 @@
     <span class="mb-3 badge badge-wine float-right p-2 ">{% include read_time.html %}</span>
     {{ content }}
     {% if data[0]label_content != blank %}
-        {{ data[0]label_content | newline_to_br }}
+        {{ data[0]label_content | newline_to_br }} 
     {% endif %}
 </div>
 {% endif %}
