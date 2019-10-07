@@ -1,12 +1,12 @@
 ---
-title: Gallery 3 Then and Now
+title: "Gallery 3: Then and Now"
 layout: default
 slug: g3-then-and-now
 sketchfab: a23761ecbda14e43b7f96ee07e83a02e
 sketchfab-title: Extract from the Parthenon Frieze
 
 ---
-Welcome to the Fitzwilliam Museum. 
+Welcome to the Fitzwilliam Museum.
 
 The Museum is named after Richard, 7th Viscount Fitzwilliam (1745-1816), a graduate of Cambridge University with a passion for collecting. He felt strongly that the University should have its own museum, not only for the display of works of art, but also with its own library. In his will Fitzwilliam he left the princely sum of £100,000 (around £10,000,000 in today's money) to build an unforgettable monument that would be both a place of learning and one of the most magnificent galleries of its day.
 
