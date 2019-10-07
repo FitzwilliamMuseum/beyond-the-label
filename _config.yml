@@ -36,7 +36,9 @@ github_username:  fitzwilliammuseum
 
 github_repo: beyond-the-label
 
-rights: MIT
+mailchimp-list: https://cam.us17.list-manage.com/subscribe/post?u=f30da66801c7549a27ffb3357&amp;id=741e719b5c
+
+rights: AGPL
 
 content_license: CC-BY
 
@@ -64,9 +66,6 @@ collections:
    labels:
       output: true
       permalink: /:collection/:name
-
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
