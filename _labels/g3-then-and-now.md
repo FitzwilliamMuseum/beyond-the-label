@@ -6,6 +6,8 @@ sketchfab: a23761ecbda14e43b7f96ee07e83a02e
 sketchfab-title: Extract from the Parthenon Frieze
 
 ---
+Welcome to the Fitzwilliam Museum. 
+
 The Museum is named after Richard, 7th Viscount Fitzwilliam (1745-1816), a graduate of Cambridge University with a passion for collecting. He felt strongly that the University should have its own museum, not only for the display of works of art, but also with its own library. In his will Fitzwilliam he left the princely sum of £100,000 (around £10,000,000 in today's money) to build an unforgettable monument that would be both a place of learning and one of the most magnificent galleries of its day.
 
 At the centre of the building, designed by the architect George Basevi (1794-1845) and completed by Charles Robert Cockerell (1788-1863), this gallery is widely considered one of the finest museum interiors in the world.
@@ -28,4 +30,4 @@ the delivery of a special garment for the goddess – are all included.
 Set high above eye level, as on the temple, two branches of the
 procession move in opposite directions to converge for the climax
 of the ritual, the handing over of the garment; this is centrally
-placed on the long wall opposite the doorway. 
+placed on the long wall opposite the doorway.
