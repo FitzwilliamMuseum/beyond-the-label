@@ -7,10 +7,9 @@ Between February 1744 and April 1745 Joseph Highmore placed a regular series of 
 
 The Fitzwilliam Museum’s prints and drawings can be viewed by appointment in The Graham Robertson Study Room. The room is open Tuesday to Friday, 10.00 – 16.30 (closed 13.00-14.00). Please email <a href="mailto:fitzmuseum-studyroom@lists.cam.ac.uk">fitzmuseum-studyroom@lists.cam.ac.uk</a>.
 
-[[CONTENT TO GO HERE]]
+{% include /structure/carousel2.html %}
 
 Plate 1: Pamela is represented in this first Piece, writing in her late Lady's dressing room, her History being known only by her letters. She is here surprised by Mr. B. who improves this occasion to further his designs.
-
 
 Plate 2: Mr. B. Expostulating with Pamela in the Summer house after some liberties taken Mrs. Jervis (who is seen through the window) having just before left her.
 
