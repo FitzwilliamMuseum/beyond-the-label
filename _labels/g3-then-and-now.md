@@ -23,6 +23,12 @@ the temple by Lord Elgin in the early 19th century, and can be seen
 today in the British Museum. The presence of these sculptures in
 Britain remains controversial.
 
+The purchase of the ‘Parthenon Marbles’ for the British nation in 1816 transformed people’s understanding of Greek art, previously viewed through the medium of later Roman versions of Greek works.
+
+George Basevi, twenty years old at the time and just embarking on his architectural career, would surely have been among the crowds flocking to view the Marbles in the British Museum. Competing to design the new Fitzwilliam Museum in 1835, he would also have been aware of the copy of the Parthenon frieze encircling the Athenaeum Club building in London, completed in 1830.  
+
+The frieze appears in one of Basevi’s earliest designs for this room. While clearly appropriate for a classically inspired building in a university where Classics was a principal subject of study, it has not met with universal approval: one critic in 1848, for example, strongly objected to ‘the junction of such coarse and mutilated figures with the rich and delicate adornment of the skylight’
+
 The Parthenon frieze was about 160m long, the space available
 in this gallery is less than 60m. But the essential elements of the
 procession – the cavalcade of horsemen, the offering bearers, and
