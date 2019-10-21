@@ -21,21 +21,23 @@
 </a>
 
 {% include /structure/navigation.html %}
+{% include /structure/jumbotron.html %}
 
 {% if page.category %}
 {% assign class = page.category %}
 {% else %}
 {% assign class = 'head' %}
 {% endif %}
-
-
-<div class="masthead mb-3">
-
-
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mb-2 ">
+          <h1>{{page.title}}</h1>
+          <div class="col-12 shadow-sm p-3 mx-auto mb-3 bg-white rounded word-count">
+              {{ content }}
+          </div>
+        </div>
+      </div>
 </div>
-
-
 
 {% include structure/footer_logos.html %}
 {% include structure/footer.html %}
