@@ -60,7 +60,7 @@
 
           <div class="contents-label">
             <h3>
-              <a href="{{ label.slug }}">{{ label.label_title }} {{ label.object_1_title }}</a>
+              <a href="/labels/{{ label.slug }}">{{ label.label_title }} {{ label.object_1_title }}</a>
             </h3>
 
             {% if label.level != "Intro" %}
@@ -96,7 +96,7 @@
             </p>
           </div>
         </div>
-        <a href="{{ label.slug }}" class="btn btn-dark">Read more</a>
+        <a href="/labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
       </div>
     </div>
     {% else %}
@@ -124,7 +124,7 @@
 
       <div class="contents-label">
         <h3>
-          <a href="{{ label.slug }}">{{ label.label_title }} {{ label.object_1_title }}</a>
+          <a href="/labels/{{ label.slug }}">{{ label.label_title }} {{ label.object_1_title }}</a>
         </h3>
 
         <!-- label not intro -->
@@ -157,7 +157,7 @@
         {% endif %}
       </div>
     </div>
-      <a href="{{ label.slug }}" class="btn btn-dark">Read more</a>
+      <a href="/labels/{{ label.slug }}" class="btn btn-dark">Read more</a>
     </div>
   </div>
 </div>
