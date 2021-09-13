@@ -2,8 +2,10 @@
 title: Sensual Virtual
 layout: default
 slug: sensual-virtual
+image: /images/layouts/sensualVirtual.png
 ---
 <img src="/images/profiles/luke-syson.jpg" width="150" class="p-3 img-fluid rounded-circle float-left" />
+
 These two words give the Fitzwilliam its first annual theme, explored throughout the Museum over the next twelve months in exhibitions, displays and events.
 
 They are words containing dilemmas, truly words for now.

@@ -2,6 +2,7 @@
 title: Going in silks
 layout: default
 slug: going-in-silks
+image: /images/labels/1200px-Anthonis_van_Dyck_013.jpg
 ---
 *Some textile contexts for portraits of Charles I and Henrietta Maria*
 
@@ -40,8 +41,3 @@ Linda Levy Peck, *Consuming Splendour: Society and Culture in Seventeenth-Centur
 Aileen Ribeiro, *Fashion and Fiction: Dress in Art and Literature in Stuart England* (2005)  
 Anna Reynolds, *In Fine Style: The Art of Tudor and Stuart Fashion* (2013)  
 Dagmar Schäfer, Giorgio Riello, Luca Molà, eds.,  *Threads of Global Desire: Silk in the Pre-Modern World* (2018)
-
-
-
-
-<span class="mb-1 mt-1 badge badge-dark p-2">{{ data[0]display_location }}</span>

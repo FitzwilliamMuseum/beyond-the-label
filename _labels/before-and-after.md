@@ -2,6 +2,7 @@
 layout: default
 title: Before and After
 slug: before-and-after
+image: /images/labels/PD.11-1964.jpg
 ---
 
 Hogarth painted two versions of *Before* and *After*, an outdoor pair, on display here, and one set indoors (now in the collection of The J. Paul Getty Museum, Los Angeles). Hogarth employed the same narrative sequence in both, i.e. before and after a couple have sex, but the action in the interior scenario takes place in the woman’s bedchamber rather than a wooded glade.

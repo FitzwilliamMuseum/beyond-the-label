@@ -5,10 +5,11 @@ slug: poussin
 video-title: Poussin's Virtual Reality Extreme Unction
 video: btQvgn2VOCs
 audio: poussin.mp3
+image: /images/labels/PD.11-2012_1_201212_adn21_dc1.jpg
 ---
 The articulated human figure made of wax or wood was a common tool in artistic practice in Europe from the 16th century. Numerous painters, including Michelangelo, Nicolas Poussin, Thomas Gainsborough, John Everett Millais and Gustave Courbet to name but a few, used them routinely in their working practice, as a way of studying clothing and the fall of light and shade. The lay figure’s indefatigable limbs offered a reliable substitute for the living model: generally cheaper, it was also able to sustain a pose for much longer.
 
-<h3>Gainsborough and the lay figure</h3>
+### Gainsborough and the lay figure
 
 Gainsborough owned two lay figures, or artists’ mannequins. One is recorded as being ‘ingeniously constructed’ with brass joints that allowed a significant degree of movement; evidently treasured by the artist during his lifetime, it was sold for £3 at a sale following the death of his wife. The other, which he appears to have been using towards the end of his life, was a life-sized figure stuffed with straw.
 
@@ -20,6 +21,3 @@ Jane Munro
 Keeper, Paintings, Drawings and Prints  
 Fitzwilliam Museum, Cambridge  
 Further reading: Jane Munro ed., *Silent Partners. Artists and Mannequin from Function to Fetish*, (London and New Haven: Yale University Press), 2014
-
-<br clear="all"/>
-To see Nicolas Poussin's use of wax figures  see <a href="https://www.fitzmuseum.cam.ac.uk/calendar/whatson/poussin%E2%80%99s-virtual-reality">Poussin's Virtual Reality</a> display in the Courtauld Gallery

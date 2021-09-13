@@ -2,6 +2,7 @@
 layout: default
 title: Pamela and Mr B. in the summer house
 slug: pamela-and-mr-b
+image: /images/labels/M.Add.6_201707_adn21_dc2.jpg
 ---
 Between February 1744 and April 1745 Joseph Highmore placed a regular series of advertisements in London newspapers to announce the impending publication of ‘twelve prints by the best French engravers, after his own paintings, representing the most remarkable Adventures of Pamela’. He invited customers to visit his house in Lincoln’s Inn Fields to view the paintings after which the prints would be engraved, and subscribe to the set for the price of two guineas, a saving of six shillings after the subscription closed on 1 May. The engravers Highmore employed were Laurent Truchy and Antoine Benoist, whose birth and death dates are uncertain but who came from France to work in London. The plates they produced were large in size (298 x 375 mm), comparable to Hogarth’s Progresses of the mid 1730s, and Highmore employed a similar narrative sequence, although these of course faithfully followed Samuel Richardson’s novel (1740) and its sequel, *Pamela in her Exalted Condition* (1742), rather than his own invention. Highmore did add his own lengthy and interpretive captions to the prints, in English and French, to appeal to a wide market, which fill the reader in on what is going on in the scene, and what has happened to lead to this moment.   
 

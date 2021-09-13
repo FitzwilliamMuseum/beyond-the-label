@@ -3,6 +3,7 @@ title: Gainsborough and the lay figure
 layout: default
 slug: painting-in-focus
 video: btQvgn2VOCs
+image: /images/labels/710.jpg
 ---
 The articulated human figure made of wax or wood was a common tool in artistic practice in Europe from the 16th century. Numerous painters, including Michelangelo, Nicolas Poussin, Thomas Gainsborough, John Everett Millais and Gustave Courbet to name but a few, used them routinely in their working practice, as a way of studying clothing and the fall of light and shade. The lay figure’s indefatigable limbs offered a reliable substitute for the living model: generally cheaper, it was also able to sustain a pose for much longer.
 
@@ -16,6 +17,3 @@ Jane Munro
 Keeper, Paintings, Drawings and Prints  
 Fitzwilliam Museum, Cambridge  
 Further reading: Jane Munro ed., *Silent Partners. Artists and Mannequin from Function to Fetish*, (London and New Haven: Yale University Press), 2014
-
-<br clear="all"/>
-To see Nicolas Poussin's use of wax figures  see <a href="https://www.fitzmuseum.cam.ac.uk/calendar/whatson/poussin%E2%80%99s-virtual-reality">Poussin's Virtual Reality</a> display in the Courtauld Gallery

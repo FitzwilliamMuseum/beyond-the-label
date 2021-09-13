@@ -2,8 +2,8 @@
 layout: default
 title: The Hon. Richard Fitzwilliam, later 7th Viscount Fitzwilliam of Merrion
 slug: richard-fitzwilliam
+image: /images/labels/1.jpg
 ---
-To hear a composition written by the founder of the museum, visit <a href="https://www.fitzmuseum.cam.ac.uk/calendar/whatson/seeing-sound-music-imagery-and-inspiration"><em>Seeing Sound: Music, imagery and inspiration</em></a>, on display in the Shiba Gallery (Gallery 14), until Sunday 12 January 2020.
 
 Born in Richmond, Surrey in 1745, Richard Fitzwilliam, 7th Viscount Fitzwilliam of Merrion, was the eldest son of Richard Fitzwilliam, 6th Viscount Fitzwilliam of Merrion, and Catherine, eldest daughter and co-heir of Sir Matthew Decker, baronet, of Richmond.
 
