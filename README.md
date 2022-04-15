@@ -2,6 +2,7 @@
 
 Release 1.0 code: [![DOI](https://zenodo.org/badge/206516480.svg)](https://zenodo.org/badge/latestdoi/206516480)
 
+![Beyond the label social](/images/layouts/beyondTheLabel.jpg)
 
 This repository will hold code for the Beyond the Label project. This project
 contains data pulled from AdLib, curatorial interpretation, video and audio content and additional materials. It is written in Jekyll, hosted on GH-Pages and is an experimental piece.
